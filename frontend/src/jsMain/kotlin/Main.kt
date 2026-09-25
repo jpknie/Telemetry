@@ -1,10 +1,11 @@
 import kotlinx.browser.document
-import components.Temperature.Temperature
+
+import components.dashboard.Dashboard
 
 fun main() {
-    val temperature = Temperature()
-
+    val dashboard = Dashboard()
+       
     document.body?.appendChild(
-        temperature.render()
+        dashboard.render()
     )
 }

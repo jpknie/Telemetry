@@ -1,0 +1,9 @@
+.dashboard {
+  min-height: 100vh;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  box-sizing: border-box;
+  border: 1px solid;
+}

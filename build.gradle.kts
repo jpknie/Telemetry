@@ -17,6 +17,7 @@ dependencies {
   implementation("io.ktor:ktor-server-content-negotiation:$ktorVersion")
   implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
   implementation("io.ktor:ktor-server-websockets:$ktorVersion")
+  implementation("org.jetbrains.kotlinx:kotlinx-html-jvm:0.12.0")
   implementation("ch.qos.logback:logback-classic:1.5.18")
   // Shared module
   implementation(project(":shared"))

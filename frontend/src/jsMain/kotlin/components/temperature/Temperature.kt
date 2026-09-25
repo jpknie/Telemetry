@@ -1,4 +1,4 @@
-package components.Temperature
+package components.temperature
 
 import org.w3c.dom.*
 import kotlinx.html.*
@@ -12,11 +12,11 @@ class Temperature {
     loadStyleSheet("styles/temperature-component/temperature.css")  
   }
   
-  fun render(): HTMLElement =
-    document.create.div {
-      p {
-        + "Temperature gauge"
+  fun DIV.render() {
+    div(classes = "temperature") {
+        p {
+          +"Temperature gauge"
       }
     }
-  
+  }
 }
